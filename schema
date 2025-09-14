@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padel Toernooi Schema</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .card {
+            background-color: #1F2937; /* bg-gray-800 */
+            border-radius: 0.75rem; /* rounded-xl */
+            padding: 1.5rem; /* p-6 */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .team {
+            background-color: #374151; /* bg-gray-700 */
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white p-4 sm:p-6">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl sm:text-5xl font-bold text-cyan-400">Padel Toernooi</h1>
+        </header>
+
+        <!-- Schema Rondes -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+            
+            <!-- Ronde 1 -->
+            <div class="card">
+                <h3 class="text-xl font-bold mb-1 text-cyan-400">Ronde 1</h3>
+                <p class="text-sm text-gray-500 mb-4">15:00 - 15:20</p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 2:</span>
+                        <div class="team flex-1">Joost & Cars</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Rianne & Ruben</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 3:</span>
+                        <div class="team flex-1">Raymond & Jorn</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Rowan & Marcel</div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <p class="text-sm text-gray-400">Wissel: <span class="font-medium text-gray-300">Yorin, Lauran, Arnout</span></p>
+                </div>
+            </div>
+
+            <!-- Ronde 2 -->
+            <div class="card">
+                <h3 class="text-xl font-bold mb-1 text-cyan-400">Ronde 2</h3>
+                <p class="text-sm text-gray-500 mb-4">15:20 - 15:40</p>
+                <div class="space-y-3">
+                     <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 2:</span>
+                        <div class="team flex-1">Yorin & Joost</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Lauran & Rianne</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 3:</span>
+                        <div class="team flex-1">Arnout & Raymond</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Cars & Rowan</div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <p class="text-sm text-gray-400">Wissel: <span class="font-medium text-gray-300">Ruben, Jorn, Marcel</span></p>
+                </div>
+            </div>
+
+            <!-- Ronde 3 -->
+            <div class="card">
+                <h3 class="text-xl font-bold mb-1 text-cyan-400">Ronde 3</h3>
+                <p class="text-sm text-gray-500 mb-4">15:40 - 16:00</p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 2:</span>
+                        <div class="team flex-1">Ruben & Yorin</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Jorn & Lauran</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 3:</span>
+                        <div class="team flex-1">Marcel & Arnout</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Joost & Rianne</div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <p class="text-sm text-gray-400">Wissel: <span class="font-medium text-gray-300">Cars, Raymond, Rowan</span></p>
+                </div>
+            </div>
+
+            <!-- Ronde 4 -->
+            <div class="card">
+                <h3 class="text-xl font-bold mb-1 text-cyan-400">Ronde 4</h3>
+                <p class="text-sm text-gray-500 mb-4">16:00 - 16:20</p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 2:</span>
+                        <div class="team flex-1">Cars & Ruben</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Raymond & Marcel</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 3:</span>
+                        <div class="team flex-1">Rowan & Jorn</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Yorin & Arnout</div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <p class="text-sm text-gray-400">Wissel: <span class="font-medium text-gray-300">Joost, Rianne, Lauran</span></p>
+                </div>
+            </div>
+
+            <!-- Ronde 5 -->
+            <div class="card">
+                <h3 class="text-xl font-bold mb-1 text-cyan-400">Ronde 5</h3>
+                <p class="text-sm text-gray-500 mb-4">16:20 - 16:40</p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 2:</span>
+                        <div class="team flex-1">Joost & Jorn</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Rianne & Rowan</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 3:</span>
+                        <div class="team flex-1">Lauran & Marcel</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Ruben & Raymond</div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <p class="text-sm text-gray-400">Wissel: <span class="font-medium text-gray-300">Cars, Yorin, Arnout</span></p>
+                </div>
+            </div>
+
+            <!-- Ronde 6 -->
+            <div class="card">
+                <h3 class="text-xl font-bold mb-1 text-cyan-400">Ronde 6</h3>
+                <p class="text-sm text-gray-500 mb-4">16:40 - 17:00</p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 2:</span>
+                        <div class="team flex-1">Cars & Lauran</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Yorin & Rowan</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm">
+                        <span class="w-14 font-semibold text-gray-400">Baan 3:</span>
+                        <div class="team flex-1">Arnout & Rianne</div>
+                        <span class="font-bold text-cyan-500">vs</span>
+                        <div class="team flex-1">Joost & Raymond</div>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <p class="text-sm text-gray-400">Wissel: <span class="font-medium text-gray-300">Ruben, Jorn, Marcel</span></p>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Footer -->
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>Veel plezier met het toernooi!</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
